@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Trading Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 10px 0;
+        }
+
+        .logo img {
+            height: 90px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: cyan;
+        }
+
+        nav ul li a:hover {
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .section-container {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            border-color: cyan;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease
+        }
+
+        .section-container h2,
+        .section-container p {
+            padding: 20px;
+            margin: 0;
+        }
+
+        .section-container:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container {
+            flex-shrink: 0;
+            width: 30%;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: cyan;
+            padding: 20px 0;
+            text-align: center;
+            align-items: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+        /*For Tablet View*/
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .section-container,
+            .image-container {
+                width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .section-container,
+            .image-container {
+                width: 100%;
+            }
+        }
+
+        .logo{
+            height: 50px;
+            width: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo2.png" alt="Logo">
+                <!-- <div class="sidebar-brand-text mx-3">INVESTING HUB</div> -->
+            </div>
+            <header>
+                <h1 style="color: cyan;">Educational Resource</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="Homepage1.html">Home</a></li>
+                    <li><a href="modules.html">Modules</a></li>
+               
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="section-container">
+            <section id="stock-trading">
+
+                <h2 style="color: cyan;" <i class="fa-solid fa-arrow-trend-up" style="color: cyan; font-size: 1cm;">            Stock Trading</h2></i>
+                <p style="color: #f2f2f2;">Stock trading broadly refers to any buying and selling of stock, but is
+                    colloquially used to refer to
+                    more shorter-term investments made by very active investors. Stock trading is a difficult and risky
+                    enterprise, but with education, you can work to lower risks and increase your likelihood of success.
+                    <br><a href="https://en.wikipedia.org/wiki/Stock_trader" style="color: cyan;">Know more--></a>
+                </p>
+            </section>
+        </div>
+        <div class="section-container">
+
+            <section id="demat-account">
+                <h2 style="color: cyan;"<i class="fa-solid fa-user" style="color: cyan; font-size: 1cm;">        Demat Account</h2></i>
+                <p style="color: #f2f2f2;">A Demat account, or Dematerialized Account, is a digital vault for storing
+                    stock investments. Demat
+                    accounts are used to buy, sell, and hold financial securities like stocks, bonds, and mutual funds.
+                    <!-- Demat accounts are different from trading accounts, which allow customers to trade in stock markets.
+                    Demat accounts are designed to keep shares safe, reducing the risk of loss or forgery. -->
+                    <br><a href="https://en.wikipedia.org/wiki/Demat_account" style="color: cyan;">Know more--></a>
+                </p>
+            </section>
+        </div>
+        <div class="section-container">
+
+            <section id="mutual-funds">
+                <h2 style="color: cyan;" <i class="fa-solid fa-chart-pie" style="color: cyan; font-size: 1cm;">         Mutual Funds</h2></i>
+                <p style="color: #f2f2f2;">A mutual fund is a collective investment vehicle that collects & pools money
+                    from a number of investors
+                    and invests the same in equities, bonds, government securities, money market instruments.
+
+                    <!-- The money collected in mutual fund scheme is invested by professional fund managers in stocks and bonds
+                    etc. in line with a scheme’s investment objective.  -->
+                    <br><a href="https://en.wikipedia.org/wiki/Mutual_fund" style="color: cyan;">Know more--></a>
+                </p>
+            </section>
+        </div>
+        <div class="section-container">
+            <section id="intraday">
+                <h2 style="color: cyan;" <i class="fa-solid fa-chart-simple" style="color: cyan; font-size: 1cm;">      Intraday Trading</h2>
+                <p style="color: #f2f2f2;">Intraday trading, which is also referred to as Day Trading, involves the
+                    purchase and sale of stocks
+                    within the same trading day.
+                    <!-- Share prices keep fluctuating throughout the day, and intraday traders try
+                to draw profits from these price movements by buying and selling shares during the same trading day. -->
+                    <br><a href="https://en.wikipedia.org/wiki/Day_trading" style="color: cyan;">Know more--></a>
+                </p>
+            </section>
+        </div>
+        <div class="section-container">
+            <section id="share-market">
+                <h2 style="color: cyan;" <i class="fa-solid fa-chart-line" style="color:cyan; font-size: 1cm;" >                  Share Market</h2>
+                <p style="color: #f2f2f2;">Share trading means buying and selling stocks of companies listed on the two
+                    leading stock exchanges -
+                    Bombay stock exchange (BSE) and national stock exchange (NSE).
+                    <!-- The buyer of the shares gets certain
+                ownership in the company. He is entitled to a percentage of stake in the company. -->
+                    <br><a href="https://en.wikipedia.org/wiki/Stock_market" style="color: cyan;">Know more--></a>
+                </p>
+            </section>
+        </div>
+        <div class="section-container">
+            <section id="sip">
+                <h2 style="color: cyan;" <i class="fa-solid fa-hand-holding-dollar" style="color: cyan; font-size: 1cm;">           SIP</h2>
+                <p style="color: #f2f2f2;">SIP stands for Systematic Investment Plan. SIP is a method of investing in
+                    mutual funds where investors
+                    regularly invest a fixed amount of money at predetermined intervals (such as monthly or quarterly)
+                    over
+                    a specified period.
+                    <!-- SIP allows investors to take advantage of rupee cost averaging and the power of
+                compounding. -->
+                    <br><a href="https://en.wikipedia.org/wiki/Systematic_investment_plan" style="color: cyan;">Know
+                        more--></a>
+                </p>
+            </section>
+        </div>
+        </div>
+        <!-- Add more sections similarly -->
+    </main>
+    <!-- <footer>
+        <div class="container">
+            <p>&copy; 2024 Stock Trading Education</p>
+        </div>
+    </footer> -->
+</body>
+
+</html>

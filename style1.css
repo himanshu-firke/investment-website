@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: cyan; /* Text color */
+}
+
+.container {
+    width: 600px; /* Increased width */
+    margin: 50px auto; /* Centered on the page */
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    animation: slideIn 0.5s ease; /* Slide-in animation */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row {
+    flex: 1;
+}
+
+.input-row label {
+    color: cyan; /* Label color */
+}
+
+.input-row input, .input-row select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #888888; /* Border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    /*color: #ffffff; /* Text color */
+}
+
+.input-row select {
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color:rgb(5, 146, 146);
+    color: white;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+p a {
+    color: cyan;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

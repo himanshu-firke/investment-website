@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules - Stock Trading Education</title>
+    <style>
+        /* Existing styles */
+       /* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #000000;
+    color: cyan;
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Added gap between modules */
+    flex-wrap: wrap; /* Added wrap for responsive layout */
+}
+
+/* Adjusted styles for modules */
+.module {
+    flex: 1 1 calc(30% - 20px); /* Adjusted width considering margin */
+    max-width: 400px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid cyan; /* Added border */
+    margin-bottom: 20px; /* Added margin bottom for space between modules */
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+}
+
+.module:hover {
+    transform: scale(1.1); /* Adjusted scale for hover effect */
+}
+
+.module h2 {
+    margin-top: 0;
+    color: cyan; /* Added color for headings */
+}
+
+.module p {
+    margin-bottom: 15px;
+    color: #f2f2f2; /* Added color for paragraphs */
+}
+
+.btn {
+    display: inline-block;
+    background-color: cyan;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: cyan; /* Adjusted hover background color */
+    transform: scale(1.1); /* Adjusted scale for hover effect */
+}
+
+footer {
+    background-color: #000000;
+    color: cyan;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo3.png" alt="Logo">
+                <div class="sidebar-brand-text mx-3">INVESTING HUB</div>
+            </div>
+            <header>
+                <h1 style="color: cyan;">Modules</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="Homepage1.html">Home</a></li>
+                    <li><a href="modules.html">Modules</a></li>
+                    <li><a href="b.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <br><br>
+       </div>
+        <section class="module">
+            <h2 style="color: cyan;">1.  Introduction to Stock Market</h2>
+            <p style="color: #f2f2f2;">Stock markets are venues where buyers and sellers meet to exchange equity shares of public corporations.
+                Stock markets are components of a free-market economy because they enable democratized access to
+                investor trading and exchange of capital.</p>
+            <a href="https://youtu.be/9kpg2_JYRZQ?list=PLT6_Bt_TKitIUCEsI-3SGCrVHCy0g_5jd" class="btn">Start Learning</a>
+        </section>
+
+        <section class="module">
+            <h2 style="color: cyan;">2.  Technical Analysis</h2>
+            <p style="color: #f2f2f2;">Technical analysis is a method used in the stock market to predict future price movements based on
+                historical data. Traders use charts to spot trends and patterns in prices. There are three types of
+                trends: uptrend (prices go up), downtrend (prices go down), and sideways (prices move within a
+                range).</p>
+            <a href="https://youtu.be/ttPGkFAROWk" class="btn">Start Learning</a>
+        </section>
+
+        <section class="module">
+            <h2 style="color: cyan;">3.  Risk Management Strategies</h2>
+            <p style="color: #f2f2f2;">Risk management helps cut down losses. It can also help protect traders' accounts from losing all of its
+                money. The risk occurs when traders suffer losses. If the risk can be managed, traders can open
+                themselves up to making money in the market.
+
+                It is an essential but often overlooked prerequisite to successful active trading.</p>
+            <a href="https://youtu.be/RE9tk78ALd0" class="btn">Start Learning</a>
+        </section>
+
+        <section class="module">
+            <h2 style="color: cyan;">4.  Future Trading</h2>
+            <p style="color: #f2f2f2;">Futures are a type of derivative contract agreement to buy or sell a specific commodity asset or security
+                at a set future date for a set price. Futures contracts, or simply "futures," are traded on futures
+                exchanges like the CME Group and require a brokerage account that's approved to trade futures.</p>
+            <a href="https://youtu.be/Wcno3YF18Ow" class="btn">Start Learning</a>
+        </section>
+
+        <section class="module">
+            <h2 style="color: cyan;">5.  Funadamental Analysis</h2>
+            <p style="color: #f2f2f2;">Fundamental analysis attempts to identify stocks offering strong growth potential at a good price by
+                examining the underlying company's business, as well as conditions within its industry or in the broader
+                economy.</p>
+            <a href="https://youtu.be/Ytw_qqgRBOY" class="btn">Start Learning</a>
+        </section>
+
+        <section class="module">
+            <h2 style="color: cyan;">6.  Trading Psychology</h2>
+            <p style="color: #f2f2f2;">Trading psychology is the emotional component of an investor's decision-making process, which may help
+                explain why some decisions appear more rational than others. Trading psychology is characterized
+                primarily by the influence of both greed and fear. Greed drives decisions that might be too risky</p>
+            <a href="https://youtu.be/vtmvk5m7wfI" class="btn">Start Learning</a>
+        </section>
+        <section class="module">
+            <h2 style="color: cyan;">7.  Market and Taxation</h2>
+            <p style="color: #f2f2f2;">Short-term capital gains are taxed at 15% under Section 111A, regardless of your tax bracket, plus any
+                applicable surcharges and cess. If listed stock shares are sold after 12 months of acquisition, the
+                seller is said to have either made a long term capital gain (LTCG) or incurred a long term capital loss
+                (LTCL).</p>
+            <a href="https://youtu.be/XR74p2RLaEY" class="btn">Start Learning</a>
+        </section>
+        <section class="module">
+            <h2 style="color: cyan;">8.  Personal Finance</h2>
+            <p style="color: #f2f2f2;">A mutual fund is a company that pools money from many investors and invests the money in securities such
+                as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its
+                portfolio. Investors buy shares in mutual funds.</p>
+            <a href="https://youtu.be/JL0NhCj4tyc" class="btn">Start Learning</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Stock Trading Education</p>
+        </div>
+    </footer>
+</body>
+
+</html>
