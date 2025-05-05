@@ -24,7 +24,7 @@ This investment website allows users to **create accounts**, **buy and sell stoc
 | Backend     | PHP, Python                        |
 | Database    | MySQL                              |
 | Charts API  | TradingView Widgets                |
-| Hosting     | (Add your platform, e.g., XAMPP, Vercel, etc.) |
+| Hosting     | XAMPP                              |
 
 ---
 
